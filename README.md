@@ -13,6 +13,6 @@ This will open the Streamlit app, which serves as the user interface for the too
 Polydelta collected internship opportunities from three separate sources, USA Jobs, Indeed.com, and the Texas A&M Rangeland, Wildlife, and Fisheries Management Job Board. We processed and transformed this data through distinct pipelines. During this time, the team experimented with a variety of natural language processing and machine learning approaches. The final model calculated the similarity between every internship in our dataset based on a variety of features.
 
 These features include:
--Internship title
--Internship description
--Company name
+- Internship title
+- Internship description
+- Company name
