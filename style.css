@@ -1,0 +1,7 @@
+.Nearby>button {
+    color: #4F8BF9;
+    border-radius: 8px;
+    height: 3em;
+    width: 3em;
+    padding: 10px 20px;
+}
