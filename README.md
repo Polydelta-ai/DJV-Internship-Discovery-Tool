@@ -15,4 +15,6 @@ These features include:
 ## How to use the tool ##
 To use the internship discovery tool, clone this repo. Then run `'streamlit run student_demo.py'`.
 
-This will open the Streamlit app, which serves as the user interface for the tool. The initial page will be the `'Launch'` page, press the `'Start'` button and allow the model to load. Once the model is loaded, updated the `'student_demo-state.json'` file to read, `'"visible_section": "welcome"'`. Refresh the webpage and the tool will be ready to use.
+This will open the Streamlit app, which serves as the user interface for the tool. The initial page will be the `'Launch'` page, press the `'Start'` button and allow the model to load. Once the model is loaded, updated the `'student_demo-state.json'` file to read, `'"visible_section": "welcome"'`. 
+
+Refresh the webpage and the tool will be ready to use.
