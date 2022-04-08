@@ -12,6 +12,10 @@ These features include:
 - Internship description
 - Company name
 
+## Installation ##
+- Install [Andaconda](https://docs.anaconda.com/anaconda/install/index.html)
+- Install a [virtual conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) from the `environment.yml`
+
 ## How to use the tool ##
 To use the internship discovery tool, clone this repo. Then run `'streamlit run student_demo.py'`.
 
