@@ -566,6 +566,7 @@ if STATE['visible_section'] == "user_results_overview":
 # User results page lists the user's recommendations 
 if STATE['visible_section'] == "user_results":
      data = pd.read_csv('top_recs.csv')
+     data = data.drop_duplicates(subset='job_title')
      csv = data.to_csv(columns=['job_title', 'full_job_description', 'company_name', 'job_link', 'source'], index=False).encode('utf-8')
      recommendations = data.head(10)
     

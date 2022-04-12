@@ -93,8 +93,6 @@ def get_sample_internship_list(df, verbose=False):
         if verbose: print(f'Information: {information * 100:.2f}%\nIterations: {iterations}\n\n')
 
 
-    sample_list.append(1459)
-
     return sample_list
 
 
