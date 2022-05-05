@@ -15,10 +15,11 @@ These features include:
 ## Installation ##
 - Install [Anaconda](https://docs.anaconda.com/anaconda/install/index.html)
 - Install a [virtual conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) from the `environment.yml`
+- Be sure that all data sets were downloaded correctly by running `git lfs pull`
 
 ## How to use the tool ##
 To use the internship discovery tool, clone this repo. Then run `'streamlit run student_demo.py'`.
 
-This will open the Streamlit app, which serves as the user interface for the tool. The initial page will be the `'Launch'` page, press the `'Start'` button and allow the model to load. Once the model is loaded, updated the `'student_demo-state.json'` file to read, `'"visible_section": "welcome"'`. 
+This will open the Streamlit app, which serves as the user interface for the tool. The initial page will be the `'Launch'` page, press the `'Start'` button and allow the model to load. Once the model is loaded, update the `'student_demo-state.json'` file to read, `'"visible_section": "welcome"'`. 
 
 Refresh the webpage and the tool will be ready to use.
